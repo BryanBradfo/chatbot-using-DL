@@ -1,115 +1,122 @@
 {
     "intents": [
-        {
-            "tag": "greeting",
-            "patterns": [
-                "Hi", 
-                "Hey",
-                "How are you", 
-                "Is anyone there?", 
-                "Hello", 
-                "Good day"
-            ],
-            "responses": [
-                "Hello!", 
-                "Good to see you again!", 
-                "Hi there, how can I help?"
-            ]
-        },
-        {
-            "tag": "goodbye",
-            "patterns": [
-                "Bye", 
-                "See you later", 
-                "Goodbye"
-            ],
-            "responses": [
-                "See you later, thanks for visiting", 
-                "Have a nice day", 
-                "Bye! Come back again soon."
-            ]
-        },
-        {
-            "tag": "thanks",
-            "patterns": [
-                "Thanks", 
-                "Thank you", 
-                "That's helpful"
-            ],
-            "responses": [
-                "Happy to help!", 
-                "Any time!", 
-                "My pleasure"
-            ]
-        },
-        {
-            "tag": "items",
-            "patterns": [
-                "Which items do you have?",
-                "What kinds of items are there?",
-                "What do you sell?"
-            ],
-            "responses": [
-                "We sell coffee and tea",
-                "We have coffee and tea"
-            ]
-        },
-        {
-            "tag": "payments",
-            "patterns": [
-                "Do you take credit cards?",
-                "Do you accept Mastercard?",
-                "Are you cash only?"
-            ],
-            "responses": [
-                "We accept VISA, Mastercard and AMEX",
-                "We accept most major credit cards, and cash"
-            ]
-        },
-        {
-            "tag": "delivery",
-            "patterns": [
-                "Do you deliver?",
-                "Do you do home delivery?",
-                "Can I get my order delivered?"
-            ],
-            "responses": [
-                "We deliver through Uber Eats and DoorDash",
-                "We deliver through Uber Eats and DoorDash"
-            ]
-        },
-        {
-            "tag": "funny",
-            "patterns": [
-                "Tell me a joke!",
-                "Tell me something funny!",
-                "Do you know a joke?"
-            ],
-            "responses": [
-                "What do you call a fake noodle? An Impasta!",
-                "What do you call an alligator in a vest? An Investigator!",
-                "Why did the coffee file a police report? It got mugged!"
-            ]
-        },
-        {
-            "tag": "hours",
-            "patterns": [
-                "What are your hours?",
-                "When are you open?"
-            ],
-            "responses": [
-                "We are open 7am-4pm Monday-Friday!"
-            ]
-        },
-        {
-            "tag": "location",
-            "patterns": [
-                "Where are you located?",
-                "What is your address?"
-            ],
-            "responses": [
-                "We are located at 123 Main St. in Philadelphia"
-            ]
-        }
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Salut",
+          "Bonjour",
+          "Comment ça va ?",
+          "Est-ce qu'il y a quelqu'un ?",
+          "Bonjour",
+          "Bonne journée"
+        ],
+        "responses": [
+          "Salut ! 😁",
+          "Enchanté de te rencontrer ! Que desirez-vous ? 😃",
+          "Bonjour, comment puis-je t'aider ? 😊",
+          "Hi! Dis-moi comment je peux t'aider ! 😃"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Au revoir ",
+          "À plus tard ",
+          "À la prochaine ",
+          "Adieu"
+        ],
+        "responses": [
+          "À plus tard, merci de ta visite 😊",
+          "Bonne journée 🤗",
+          "Au revoir ! Au plaisir de vous revoir 😊",
+          "À bientôt ! 😊"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Merci",
+          "Merci beaucoup",
+          "C'est utile",
+          "J'ai eu ce que je voulais"
+        ],
+        "responses": [
+          "Ravi de pouvoir aider ! 😃",
+          "À tout moment !",
+          "Avec plaisir",
+          "N'hésitez pas si vous avez d'autres questions. 👌 "
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Quels articles avez-vous ?",
+          "Quels types d'articles proposez-vous ?",
+          "Que vendez-vous ?",
+          "Que puis-je trouver ici ?",
+          "Que faites-vous ?"
+        ],
+        "responses": [
+          "Nous vendons des articles élégants et casuals (robe short, combi pantalon, veste kimono, blouse, t-shirt...)",
+          "Nous avons des articles élégants et casuals (robe short, combi pantalon, veste kimono, blouse, t-shirt...)",
+          "Vous pouvez trouver des articles élégants et casuals ici (robe short, combi pantalon, veste kimono, blouse, t-shirt...)"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Acceptez-vous les cartes de crédit ?",
+          "Acceptez-vous les Mastercard ?",
+          "Acceptez-vous uniquement l'argent liquide ?"
+        ],
+        "responses": [
+          "Nous acceptons les cartes bancaires et l'argent liquide",
+          "Vous pouvez payer via votre carte bancaire ou en espèces"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Livrez-vous ?",
+          "Proposez-vous la livraison à domicile ?",
+          "Puis-je faire livrer ma commande ?"
+        ],
+        "responses": [
+          "Nous livrons via des transporteurs. Le transport dépend de la zone de livraison.",
+          "Vous pouvez vous faire livrer vos articles, mais le prix dépend du transporteur et de la zone de livraison."
+        ]
+      },
+      {
+        "tag": "best",
+        "patterns": [
+          "Quels sont vos meilleurs articles ?",
+          "Avez-vous des articles à conseiller ?",
+          "Quels sont vos produits du moment ?"
+        ],
+        "responses": [
+          "Tous les produits sont excellents. Cela dépend de votre localisation. Vous pouvez essayer notre robe portefeuille longue en viscose." 
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "Quelles sont vos heures d'ouverture ?",
+          "Quand êtes-vous ouvert ?"
+        ],
+        "responses": [
+          "Nous sommes ouverts de 9h à 19h du lundi au vendredi, 14h à 19h le samedi !"
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Où êtes-vous situé ?",
+          "Quelle est votre adresse ?"
+        ],
+        "responses": [
+          "Nous sommes situés dans le Fashion Center, centre commercial de la mode, à Aubervilliers, 93300."
+        ]
+      }
     ]
-}
+  }
+  
