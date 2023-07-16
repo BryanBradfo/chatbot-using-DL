@@ -24,12 +24,12 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval() # set model to evaluation mode
 
-bot_name = "Sam"
-print("Let's chat! (type 'quit' to exit)")
+bot_name = "Inspiration Bot"
+print("Puis-je vous aider? (tapez 'quitte' si vous voulez arrêter)")
 
 while True:
-    sentence = input('You: ')
-    if sentence == "quit" :
+    sentence = input('Moi: ')
+    if sentence == "quitte" :
         break
 
     sentence = tokenize(sentence)
@@ -49,4 +49,4 @@ while True:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
-        print(f"{bot_name}: I do not understand...")
+        print(f"{bot_name}: Je n'ai pas bien compris, pouvez-vous reformuler ?")

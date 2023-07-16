@@ -111,7 +111,12 @@
         "tag": "location",
         "patterns": [
           "Où êtes-vous situé ?",
-          "Quelle est votre adresse ?"
+          "Quelle est votre adresse ?",
+          "Où est votre magasin ?",
+          "Où se situe votre boutique ?",
+          "Comment puis-je vous trouver ?",
+          "Où êtes-vous ?",
+          "Où se situez-vous ?"
         ],
         "responses": [
           "Nous sommes situés dans le Fashion Center, centre commercial de la mode, à Aubervilliers, 93300."
